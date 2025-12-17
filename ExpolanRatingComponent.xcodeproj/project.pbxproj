@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF8448092EF276B100326E16 /* WrappingHStack in Frameworks */ = {isa = PBXBuildFile; productRef = EF8448082EF276B100326E16 /* WrappingHStack */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EF8447E72EF24DDB00326E16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8448092EF276B100326E16 /* WrappingHStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				EF8447DB2EF24DD800326E16 /* ExpolanRatingComponent */,
 				EF8447E92EF24DDB00326E16 /* ExpolanRatingComponentTests */,
 				EF8447F32EF24DDB00326E16 /* ExpolanRatingComponentUITests */,
+				EF8448072EF276B100326E16 /* Frameworks */,
 				EF8447DA2EF24DD800326E16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				EF8447F02EF24DDB00326E16 /* ExpolanRatingComponentUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8448072EF276B100326E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = ExpolanRatingComponent;
 			packageProductDependencies = (
+				EF8448082EF276B100326E16 /* WrappingHStack */,
 			);
 			productName = ExpolanRatingComponent;
 			productReference = EF8447D92EF24DD800326E16 /* ExpolanRatingComponent.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = EF8447D02EF24DD800326E16;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EF8448062EF2768000326E16 /* XCRemoteSwiftPackageReference "WrappingHStack" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EF8447DA2EF24DD800326E16 /* Products */;
 			projectDirPath = "";
@@ -570,6 +587,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF8448062EF2768000326E16 /* XCRemoteSwiftPackageReference "WrappingHStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dkk/WrappingHStack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF8448082EF276B100326E16 /* WrappingHStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF8448062EF2768000326E16 /* XCRemoteSwiftPackageReference "WrappingHStack" */;
+			productName = WrappingHStack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF8447D12EF24DD800326E16 /* Project object */;
 }
